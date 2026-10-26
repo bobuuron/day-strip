@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day Strip privacy policy</title>
+<meta name="description" content="How Day Strip handles your todos and your Google Calendar data.">
+<style>
+  :root { --bg: #ffffff; --fg: #1c1b1f; --muted: #5f5c66; --link: #3f51b5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1c1b1f; --fg: #e6e1e5; --muted: #b0acb6; --link: #9fa8ff; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 0.25rem; }
+  .lead { color: var(--muted); margin: 0 0 2rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+  a { color: var(--link); }
+  code { font-size: 0.9em; overflow-wrap: anywhere; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="lead">Day Strip, an Android todo app. Last updated 26 October 2026.</p>
+
+  <h2>What the app stores</h2>
+  <p>Your todos: each one's title, due day, an optional due time, and whether it is done. They are kept in a database on your phone. Removing the app removes them.</p>
+
+  <h2>What the app does with Google Calendar</h2>
+  <p>Only if you connect a Google account, the app asks for one permission, <code>https://www.googleapis.com/auth/calendar.app.created</code>. With it, the app:</p>
+  <ul>
+    <li>creates one calendar of its own, called "Todos", in your Google Calendar;</li>
+    <li>adds an event there for each open todo, changes it when you edit the todo, and deletes it when you mark the todo done or delete it.</li>
+  </ul>
+  <p>The app cannot see your other calendars or their events, and it never reads anything back from Google Calendar. The sign-in goes through Google Play services on your phone; the app does not store your password or any token itself.</p>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>It has no server of its own. Your todos go from your phone to your own Google Calendar and nowhere else.</li>
+    <li>It does not share, sell or transfer your data to anyone.</li>
+    <li>It has no ads, no analytics and no tracking.</li>
+  </ul>
+  <p>Day Strip's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Removing your data</h2>
+  <ul>
+    <li>Disconnect Google in the app's Settings, or remove Day Strip's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Delete the "Todos" calendar in Google Calendar to remove the events.</li>
+    <li>Uninstall the app to remove the todos from your phone.</li>
+  </ul>
+
+  <h2>Who it is for</h2>
+  <p>Day Strip is a personal app, made for and used by its author only. It is not published on Google Play.</p>
+
+  <h2>Contact</h2>
+  <p>bo.buuron@gmail.com</p>
+
+  <footer>
+    <a href="./">Day Strip</a>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day Strip</title>
+<meta name="description" content="Day Strip, a personal Android todo app with a home-screen widget, and a one-way copy of its todos in Google Calendar.">
+<style>
+  :root { --bg: #ffffff; --fg: #1c1b1f; --muted: #5f5c66; --link: #3f51b5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1c1b1f; --fg: #e6e1e5; --muted: #b0acb6; --link: #9fa8ff; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 0.25rem; }
+  .lead { color: var(--muted); margin: 0 0 2rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+  a { color: var(--link); }
+  footer { margin-top: 3rem; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Day Strip</h1>
+  <p class="lead">A personal Android todo app: add a todo with its deadline in a few taps, and see what is due in one look each morning.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>A home-screen widget shows the coming week. Tap a day, type the todo, press Enter.</li>
+    <li>The app's main screen lists what is overdue, what is due today and what is due later.</li>
+    <li>Todos are saved on the phone first.</li>
+    <li>If you connect a Google account, the app copies your open todos into a calendar of its own, called "Todos", in your Google Calendar.</li>
+  </ul>
+
+  <h2>Google Calendar: write only</h2>
+  <p>Day Strip asks Google for one permission, to create its own calendar and manage the events in it. It cannot see your other calendars or their events, and it never reads anything back from Google Calendar.</p>
+
+  <h2>Who it is for</h2>
+  <p>Day Strip is a personal app, made for and used by its author only. It is not published on Google Play.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
